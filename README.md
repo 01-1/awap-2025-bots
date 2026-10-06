@@ -6,11 +6,6 @@ strategy game with units, buildings, terrain and a turn limit.
 Note: this description was written with LLMs. The bots' own provenance is described below and is
 recorded in the header comment of each file, written at the time.
 
-The game engine is **not mine** — it's
-[`acm-cmu/awap-engine-2025-public`](https://github.com/acm-cmu/awap-engine-2025-public), provided
-by the organizers. Only the bots are here. To run these you'd drop them into that engine's `bots/`
-directory.
-
 ## Layout
 
 | Path | |
@@ -18,6 +13,11 @@ directory.
 | `main/` | The bots that mattered. `c2 → c3 → c4 → c5` is one lineage grown over the competition (361 → 473 → 534 → 538 lines); `wh-farm.py` (645 lines) is the other. |
 | `variants/` | 43 experiments — catapult rushes, warrior/healer ratio sweeps (`21-`, `42-`, `64-`, `82-`, `91-`), engineer and explorer builds, bridge play. Most were dead ends. |
 | `llm-baselines/` | Single-prompt bots generated from DeepSeek and GPT-4o, one strategy each. |
+
+The game engine is not mine — it's
+[`acm-cmu/awap-engine-2025-public`](https://github.com/acm-cmu/awap-engine-2025-public), provided
+by the organizers. Only the bots are here. To run these you'd drop them into that engine's `bots/`
+directory.
 
 ## On provenance, and what the baselines are doing here
 
