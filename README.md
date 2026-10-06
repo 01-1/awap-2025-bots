@@ -11,8 +11,8 @@ recorded in the header comment of each file, written at the time.
 | Path | |
 |---|---|
 | [`main/`](https://github.com/01-1/awap-2025-bots/tree/main/main) | The bots that mattered. `c2 → c3 → c4 → c5` is one lineage grown over the competition (361 → 473 → 534 → 538 lines); `wh-farm.py` (645 lines) is the other. |
-| `variants/` | 43 experiments — catapult rushes, warrior/healer ratio sweeps (`21-`, `42-`, `64-`, `82-`, `91-`), engineer and explorer builds, bridge play. Most were dead ends. |
-| `llm-baselines/` | Single-prompt bots generated from DeepSeek and GPT-4o, one strategy each. |
+| [`variants/`](https://github.com/01-1/awap-2025-bots/tree/main/variants) | 43 experiments — catapult rushes, warrior/healer ratio sweeps (`21-`, `42-`, `64-`, `82-`, `91-`), engineer and explorer builds, bridge play. Most were dead ends. |
+| [`llm-baselines/`](https://github.com/01-1/awap-2025-bots/tree/main/llm-baselines) | Single-prompt bots generated from DeepSeek and GPT-4o, one strategy each. |
 
 The game engine is not mine — it's
 [`acm-cmu/awap-engine-2025-public`](https://github.com/acm-cmu/awap-engine-2025-public), provided
